@@ -43,7 +43,7 @@ TagManager:
     locked: 0
   m_RenderingLayers:
   - Default
-  - No decal
+  - recieve decal
   - Light Layer 2
   - Light Layer 3
   - Light Layer 4
