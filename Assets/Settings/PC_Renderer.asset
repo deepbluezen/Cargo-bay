@@ -16,7 +16,7 @@ MonoBehaviour:
   m_Settings:
     technique: 0
     maxDrawDistance: 1000
-    decalLayers: 0
+    decalLayers: 1
     dBufferSettings:
       surfaceData: 2
     screenSpaceSettings:
@@ -88,11 +88,11 @@ MonoBehaviour:
     probeSamplingDebugTexture: {fileID: 2800000, guid: 24ec0e140fb444a44ab96ee80844e18e, type: 3}
     probeVolumeBlendStatesCS: {fileID: 7200000, guid: b9a23f869c4fd45f19c5ada54dd82176, type: 3}
   m_RendererFeatures:
-  - {fileID: 7833122117494664109}
   - {fileID: -9135626080362739906}
+  - {fileID: 7833122117494664109}
   - {fileID: 6703878958863775513}
   - {fileID: -2484520174413215821}
-  m_RendererFeatureMap: ad6b866f10d7b46c3e472f877bbc378119774af864f6085db307cf9e103685dd
+  m_RendererFeatureMap: 3e472f877bbc3781ad6b866f10d7b46c19774af864f6085db307cf9e103685dd
   m_UseNativeRenderPass: 1
   xrSystemData: {fileID: 0}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
