@@ -193,6 +193,7 @@ GameObject:
   - component: {fileID: 22317478}
   - component: {fileID: 22317477}
   - component: {fileID: 22317476}
+  - component: {fileID: 22317479}
   m_Layer: 0
   m_Name: Near gate
   m_TagString: Untagged
@@ -293,6 +294,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22317474}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &22317479
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22317474}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 41831f9a5175246439d6bcec8ddd0759, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 1
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 1
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &31645484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6516,11 +6539,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d9d9b88c80bc3c74c869bb0e831d936b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.62
+      value: -6.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d9d9b88c80bc3c74c869bb0e831d936b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d9d9b88c80bc3c74c869bb0e831d936b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7194,7 +7217,6 @@ GameObject:
   - component: {fileID: 1687185392}
   - component: {fileID: 1687185394}
   - component: {fileID: 1687185393}
-  - component: {fileID: 1687185395}
   m_Layer: 0
   m_Name: Gate
   m_TagString: Untagged
@@ -7273,26 +7295,12 @@ MonoBehaviour:
       gate","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"near
       gate","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1477347867}
     - {fileID: 22317474}
---- !u!111 &1687185395
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687185390}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
+    - {fileID: 2132154443}
 --- !u!1 &1698730183
 GameObject:
   m_ObjectHideFlags: 0
@@ -9159,14 +9167,14 @@ MonoBehaviour:
   m_FadeScale: 0.9
   m_StartAngleFade: 180
   m_EndAngleFade: 180
-  m_UVScale: {x: 0.72, y: 0.5}
-  m_UVBias: {x: 0.45, y: 0.5}
+  m_UVScale: {x: 0.73, y: 0.24}
+  m_UVBias: {x: 0.45, y: 0.805}
   m_RenderingLayerMask:
     serializedVersion: 0
     m_Bits: 2
   m_ScaleMode: 0
   m_Offset: {x: 0, y: 0, z: 1}
-  m_Size: {x: 5, y: 5, z: 2}
+  m_Size: {x: 5, y: 2.3, z: 2}
   m_FadeFactor: 1
   version: 1
   m_DecalLayerMask: 1
@@ -9179,7 +9187,7 @@ Transform:
   m_GameObject: {fileID: 2031500409}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9, y: 1.23, z: 3.75}
+  m_LocalPosition: {x: -1.86, y: 2.34, z: 3.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9833,6 +9841,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1483418189}
   m_LocalEulerAnglesHint: {x: 0, y: 90.905, z: 0}
+--- !u!1 &2132154443 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3887040887576305268, guid: ae305acf68b3ff84f9c9eda78bbda965, type: 3}
+  m_PrefabInstance: {fileID: 4105730655734657113}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2134903577
 GameObject:
   m_ObjectHideFlags: 0
