@@ -1027,6 +1027,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d9d9b88c80bc3c74c869bb0e831d936b, type: 3}
   m_PrefabInstance: {fileID: 644351963}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &147486654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2112479037904159878, guid: becc32579e36a69428931e54066f17fc, type: 3}
+  m_PrefabInstance: {fileID: 939123194520114121}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &164555180 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 41b10688d9beef944a0b307e52da91d7, type: 3}
@@ -3848,6 +3853,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d9d9b88c80bc3c74c869bb0e831d936b, type: 3}
+--- !u!1 &937867584 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1488402027092617953, guid: becc32579e36a69428931e54066f17fc, type: 3}
+  m_PrefabInstance: {fileID: 939123194520114121}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &945631120
 GameObject:
   m_ObjectHideFlags: 0
@@ -10418,10 +10428,73 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4455917802503317529, guid: becc32579e36a69428931e54066f17fc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 939123194520114125}
+    - targetCorrespondingSourceObject: {fileID: 4455917802503317529, guid: becc32579e36a69428931e54066f17fc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 939123194520114124}
     - targetCorrespondingSourceObject: {fileID: 6683982823862292581, guid: becc32579e36a69428931e54066f17fc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: becc32579e36a69428931e54066f17fc, type: 3}
+--- !u!1 &939123194520114122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 309718316172438490, guid: becc32579e36a69428931e54066f17fc, type: 3}
+  m_PrefabInstance: {fileID: 939123194520114121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &939123194520114123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4455917802503317529, guid: becc32579e36a69428931e54066f17fc, type: 3}
+  m_PrefabInstance: {fileID: 939123194520114121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &939123194520114124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939123194520114123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 0e82ace79b0f75044970464eee9fd636, type: 2}
+--- !u!114 &939123194520114125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939123194520114123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Head
+      unit","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Damage
+      level","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"First
+      cargo to destroy","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Second
+      cargo to destroy","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Third
+      cargo to destroy","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Destruction
+      level","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 939123194520114122}
+    - {fileID: 939123194520114122}
+    - {fileID: 147486654}
+    - {fileID: 937867584}
 --- !u!1001 &4105730655734657113
 PrefabInstance:
   m_ObjectHideFlags: 0
