@@ -9,6 +9,11 @@ void GetColor_float(out float4 Color)
     Color = DecodeUintToFloat4(data);
 }
 
+void GetOffset_float(out float Offset)
+{
+    uint data = GetData();
+    Offset = DecodeBitsToInt(data,0,2);
+}
 
 /* From URP sample as reference for how to pull out ranges and work with values
 void GetRendererShaderUserValueHeadGear_float(out float HeadGear)
