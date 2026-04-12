@@ -124,8 +124,8 @@ Material:
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
     - _smooth_vertex: 0
-    - _vertex_disappear: -50
-    - _vertex_offset: -0.06
+    - _vertex_disappear: 0.91
+    - _vertex_offset: 0.05
     - _vertex_offset_multiplier: 1.11
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
