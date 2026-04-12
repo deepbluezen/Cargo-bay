@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteInEditMode]
-[ExecuteAlways]
+/* [ExecuteInEditMode]
+[ExecuteAlways] */
 
 public class SetRSUV : MonoBehaviour
 {
