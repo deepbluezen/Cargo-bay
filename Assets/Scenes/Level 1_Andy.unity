@@ -2966,10 +2966,7 @@ PrefabInstance:
     - {fileID: 65702495048144492, guid: 3251c89d35ad8054cb4b807bca55e4ae, type: 3}
     - {fileID: -8700617353114198275, guid: 3251c89d35ad8054cb4b807bca55e4ae, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3251c89d35ad8054cb4b807bca55e4ae, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1744155939}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3251c89d35ad8054cb4b807bca55e4ae, type: 3}
 --- !u!4 &562626526 stripped
 Transform:
@@ -4784,15 +4781,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cae070ffdc9454d8a9ec13b26e6909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetIndividualRSUV
-  highlightPallete: 0
-  mainPallete: 2
-  hideMeshPart: 2
+  highlightPallete: 4
+  mainPallete: 3
+  hideMeshPart: 3
   meshRotation: 1
-  MeshRotationMagnitude: 0
-  meshoffsetAxis: 0
-  MeshOffsetMagnitude: 0
-  emission: 0
-  Smoothness: 0
+  MeshRotationMagnitude: 6
+  meshoffsetAxis: 1
+  MeshOffsetMagnitude: 13
+  emission: 1
+  Smoothness: 6
 --- !u!4 &1182426188 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 382ea6573df4c0348b2f4c0652454f09, type: 3}
@@ -8229,23 +8226,6 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!1 &1744155937 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3251c89d35ad8054cb4b807bca55e4ae, type: 3}
-  m_PrefabInstance: {fileID: 559166121}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1744155939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1744155937}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 314fdf1c1f738474b86202d16d2f9ce4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SetRSUV
 --- !u!4 &1754413663 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 382ea6573df4c0348b2f4c0652454f09, type: 3}

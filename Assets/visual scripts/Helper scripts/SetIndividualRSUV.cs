@@ -1,4 +1,5 @@
 using System;
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 
@@ -49,6 +50,8 @@ public class SetIndividualRSUV : MonoBehaviour
     public int Smoothness = 0;
     private int Random = 0;
 
+    
+
     void Start()
     {
          UpdateData();
@@ -63,7 +66,8 @@ void UpdateData()
     {
         this.Random = UnityEngine.Random.Range(0,255);
         uint data = 0x00000000; // All bits set to 0
-                
+        MeshRenderer meshwithRSUVset;
+
         data = HelpersRSUV.EncodeData(data, (int)highlightPallete, 0, 3);
         data = HelpersRSUV.EncodeData(data, (int)mainPallete, 3, 3);
         data = HelpersRSUV.EncodeData(data, (int)hideMeshPart, 6, 2);
@@ -75,13 +79,13 @@ void UpdateData()
         data = HelpersRSUV.EncodeData(data, (int)Smoothness, 21, 3);
         data = HelpersRSUV.EncodeData(data, (int)Random, 24, 8);
 
+        meshwithRSUVset = gameObject.GetComponent<MeshRenderer>();
+        meshwithRSUVset.SetShaderUserValue(data);
+       
+        uint setRSUV =  meshwithRSUVset.GetShaderUserValue();
+        Debug.Log(setRSUV);
 
-
-        //only seem to be able to set RSUV not get from meshrenderer in c#
-        //so log out value are setting, don't seem to be able to output in binary format
-        //so would have to convert back from that to see bits in online calculator
-        //hex is option but that isn't any easier to read
-        Debug.Log(data);
+        
     }
 
 }
