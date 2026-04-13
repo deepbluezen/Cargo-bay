@@ -4784,14 +4784,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cae070ffdc9454d8a9ec13b26e6909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetIndividualRSUV
-  highlightPallete: 3
-  mainPallete: 0
-  hideMeshPart: 0
-  MeshRotation: 0
+  highlightPallete: 0
+  mainPallete: 2
+  hideMeshPart: 2
+  meshRotation: 1
   MeshRotationMagnitude: 0
   meshoffsetAxis: 0
   MeshOffsetMagnitude: 0
-  Emission: 0
+  emission: 0
   Smoothness: 0
 --- !u!4 &1182426188 stripped
 Transform:
