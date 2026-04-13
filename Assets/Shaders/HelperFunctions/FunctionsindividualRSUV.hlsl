@@ -10,13 +10,20 @@ void GetPallete_float(out float MainPallete, out float HighlightPallete )
      HighlightPallete = DecodeBitsToInt(data,0,3)/5;
 }
 
-void GetRSUVHideMeshPart_float(out bool HideMeshPart)
+void GetRSUVHideMeshPart_float(out float HideMeshPart)
+{
+    uint data = GetData();
+    HideMeshPart = DecodeBitsToInt(data,6,2)/4;
+   
+}
+
+/* void GetRSUVHideMeshPart_bool(out bool HideMeshPart)
 {
     uint data = GetData();
     //initially done as boolean not multiple levels
     //HideMeshPart = DecodeBitsToInt(data,6,2)// change out to float
     HideMeshPart = GetBit(data,6);
-}
+} */
 
 /* 
 void GetColor_float(out float4 Color)

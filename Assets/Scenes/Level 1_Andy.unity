@@ -1217,6 +1217,96 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d9d9b88c80bc3c74c869bb0e831d936b, type: 3}
   m_PrefabInstance: {fileID: 479932424}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &207066346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.7061386
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.5856385
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.9756744
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f2419d684c9232478f03049fafcfe70, type: 2}
+    - target: {fileID: 919132149155446097, guid: 2327663c78181174e833faada2034070, type: 3}
+      propertyPath: m_Name
+      value: RSUVtest4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2327663c78181174e833faada2034070, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 207066348}
+  m_SourcePrefab: {fileID: 100100000, guid: 2327663c78181174e833faada2034070, type: 3}
+--- !u!1 &207066347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2327663c78181174e833faada2034070, type: 3}
+  m_PrefabInstance: {fileID: 207066346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &207066348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 207066347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64cae070ffdc9454d8a9ec13b26e6909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SetIndividualRSUV
+  highlightPallete: 0
+  mainPallete: 1
+  hideMeshPart: 0
+  meshRotation: 0
+  MeshRotationMagnitude: 0
+  meshoffsetAxis: 0
+  MeshOffsetMagnitude: 0
+  emission: 0
+  Smoothness: 0
 --- !u!4 &208455068 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: debc72592a1f5d4468becd6ec5a4308d, type: 3}
@@ -4637,8 +4727,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cae070ffdc9454d8a9ec13b26e6909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetIndividualRSUV
-  highlightPallete: 4
-  mainPallete: 4
+  highlightPallete: 3
+  mainPallete: 0
   hideMeshPart: 0
   meshRotation: 0
   MeshRotationMagnitude: 0
@@ -11150,3 +11240,4 @@ SceneRoots:
   - {fileID: 861281026}
   - {fileID: 1649160149}
   - {fileID: 108424655}
+  - {fileID: 207066346}
