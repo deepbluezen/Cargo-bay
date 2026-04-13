@@ -1,4 +1,7 @@
 // From Unity RSV URP sample
+//putting in guard as is being called in multiple shaders
+#ifndef HELPER_FUNCTIONS_H
+#define HELPER_FUNCTIONS_H
 
 bool GetBit(uint data, uint bitIndex)
 {
@@ -26,3 +29,5 @@ uint GetData()
 {
     return unity_RendererUserValue;
 }
+
+#endif // HELPER_FUNCTIONS_H
