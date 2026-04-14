@@ -17,6 +17,15 @@ void GetRSUVHideMeshPart_float(out float HideMeshPart)
    
 }
 
+void GetRSUVMeshRotation_float(out float MeshRotation,out float MeshRotationMagnitude)
+{
+     uint data = GetData();
+     MeshRotation = GetBit(data,8);
+     MeshRotationMagnitude = DecodeBitsToInt(data,9,4);
+}
+
+
+
 /* void GetRSUVHideMeshPart_bool(out bool HideMeshPart)
 {
     uint data = GetData();

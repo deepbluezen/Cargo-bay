@@ -28,7 +28,7 @@ public class SetIndividualRSUV : MonoBehaviour
     
     public enum MeshRotation
     {
-        None,Rotate
+        None=1,Rotate=0
     }
 
     public enum Emission
@@ -77,8 +77,8 @@ void UpdateData()
         data = HelpersRSUV.EncodeData(data, (int)MeshOffsetMagnitude, 15, 5);
         data = HelpersRSUV.EncodeData(data, (int)emission, 20, 1);
         data = HelpersRSUV.EncodeData(data, (int)Smoothness, 21, 3);
-        data = HelpersRSUV.EncodeData(data, (int)Random, 24, 8);
-
+        //data = HelpersRSUV.EncodeData(data, (int)Random, 24, 8);
+        //Random temp removed to help check expected changes in debug log
         meshwithRSUVset = gameObject.GetComponent<MeshRenderer>();
         meshwithRSUVset.SetShaderUserValue(data);
        

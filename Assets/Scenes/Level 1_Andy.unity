@@ -1227,7 +1227,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.7061386
+      value: -0.56
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1235,7 +1235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.9756744
+      value: 13.68
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2327663c78181174e833faada2034070, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1299,10 +1299,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetIndividualRSUV
   highlightPallete: 0
-  mainPallete: 1
+  mainPallete: 0
   hideMeshPart: 0
-  meshRotation: 0
-  MeshRotationMagnitude: 0
+  meshRotation: 1
+  MeshRotationMagnitude: 15
   meshoffsetAxis: 0
   MeshOffsetMagnitude: 0
   emission: 0
@@ -9763,6 +9763,96 @@ MonoBehaviour:
   m_FadeFactor: 1
   version: 1
   m_DecalLayerMask: 1
+--- !u!1001 &2012786570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000037748947
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f2419d684c9232478f03049fafcfe70, type: 2}
+    - target: {fileID: 919132149155446097, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      propertyPath: m_Name
+      value: vertexalphatest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2012786572}
+  m_SourcePrefab: {fileID: 100100000, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+--- !u!1 &2012786571 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
+  m_PrefabInstance: {fileID: 2012786570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2012786572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012786571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64cae070ffdc9454d8a9ec13b26e6909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SetIndividualRSUV
+  highlightPallete: 0
+  mainPallete: 0
+  hideMeshPart: 1
+  meshRotation: 0
+  MeshRotationMagnitude: 0
+  meshoffsetAxis: 0
+  MeshOffsetMagnitude: 0
+  emission: 0
+  Smoothness: 0
 --- !u!1 &2025198360
 GameObject:
   m_ObjectHideFlags: 0
@@ -11241,3 +11331,4 @@ SceneRoots:
   - {fileID: 1649160149}
   - {fileID: 108424655}
   - {fileID: 207066346}
+  - {fileID: 2012786570}
