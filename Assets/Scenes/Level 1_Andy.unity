@@ -2748,15 +2748,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64cae070ffdc9454d8a9ec13b26e6909, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetIndividualRSUV
-  highlightPallete: 0
+  highlightPallete: 4
   mainPallete: 1
   hideMeshPart: 0
   meshRotation: 0
   MeshRotationMagnitude: 0
   meshoffsetAxis: 0
-  MeshOffsetMagnitude: 0
+  MeshOffsetMagnitude: 15
   emission: 0
-  Smoothness: 0
+  Smoothness: 4
 --- !u!1 &479660991
 GameObject:
   m_ObjectHideFlags: 0
@@ -7632,43 +7632,43 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.22
+      value: 2.1479273
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.84
+      value: 1.5704563
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.99
+      value: 3.4376779
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.4201852
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000037748947
+      value: 0.12672213
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.8709609
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.2209367
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -16.162
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -124.88
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -25.033
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 9a5f08b47d4696d42919f52b27a2ff1b, type: 3}
       propertyPath: m_Enabled
@@ -9777,23 +9777,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.43
+      value: 1.4207526
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.21
+      value: -0.16693848
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99935293
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.000000037748947
+      value: -0.0359689
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
       propertyPath: m_LocalRotation.z
@@ -9801,7 +9801,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -4.123
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6c51eab3c7fb8b740a69d36830eb47fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -9845,14 +9845,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SetIndividualRSUV
   highlightPallete: 0
-  mainPallete: 0
-  hideMeshPart: 1
+  mainPallete: 2
+  hideMeshPart: 0
   meshRotation: 0
   MeshRotationMagnitude: 0
-  meshoffsetAxis: 0
-  MeshOffsetMagnitude: 0
+  meshoffsetAxis: 2
+  MeshOffsetMagnitude: 14
   emission: 0
-  Smoothness: 0
+  Smoothness: 7
 --- !u!1 &2025198360
 GameObject:
   m_ObjectHideFlags: 0

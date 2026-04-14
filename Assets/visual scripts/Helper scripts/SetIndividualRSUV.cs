@@ -18,7 +18,7 @@ public class SetIndividualRSUV : MonoBehaviour
 
     public enum MeshOffsetAxis
     {
-        x,y,z
+        none,x,y,z
     }
 
     public enum HideMeshPart

@@ -65,7 +65,7 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Testfloat1: -0.15
+    - _Testfloat1: 0.97
     - _Testfloat2: 0
     - _vertex_disappear: -50
     - _vertex_offset: 0.26

@@ -24,7 +24,19 @@ void GetRSUVMeshRotation_float(out float MeshRotation,out float MeshRotationMagn
      MeshRotationMagnitude = DecodeBitsToInt(data,9,4);
 }
 
+void GetRSUVEmissionSmoothness_float(out float RSUVEmission, out float RSUVSmoothness)
+{
+    uint data = GetData();
+    RSUVEmission = GetBit(data,20);
+    RSUVSmoothness = DecodeBitsToInt(data,21,3)/7;
+}
 
+void GetRSUVMeshoffset_float(out float MeshoffsetAxis, out float MeshoffsetMagnitude)
+{
+    uint data = GetData();
+    MeshoffsetAxis = DecodeBitsToInt(data,13,2);
+    MeshoffsetMagnitude = DecodeBitsToInt(data,15,5)/31;
+}
 
 /* void GetRSUVHideMeshPart_bool(out bool HideMeshPart)
 {
