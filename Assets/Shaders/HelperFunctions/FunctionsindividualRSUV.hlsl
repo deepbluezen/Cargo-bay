@@ -6,8 +6,8 @@
 void GetPallete_float(out float MainPallete, out float HighlightPallete )
 {
      uint data = GetData();
-     MainPallete = DecodeBitsToInt(data,3,3)/5;
-     HighlightPallete = DecodeBitsToInt(data,0,3)/5;
+     MainPallete = DecodeBitsToInt(data,3,3)/7;
+     HighlightPallete = DecodeBitsToInt(data,0,3)/7;
 }
 
 void GetRSUVHideMeshPart_float(out float HideMeshPart)

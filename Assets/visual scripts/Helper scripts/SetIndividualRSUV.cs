@@ -9,11 +9,12 @@ public class SetIndividualRSUV : MonoBehaviour
 {
     public enum MainPallete
     {
-        Grey,Orange,Blue,Red,Green
+        //need to extend this / align with colours end up with
+        Grey,Orange,Blue,Red,Green,extra1, extra2
     }
     public enum HighlightPallete
     {
-        Grey,Orange,Blue,Red,Green
+        Grey,Orange,Blue,Red,Green, extra1, extra2
     }
 
     public enum MeshOffsetAxis
