@@ -230,7 +230,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2
@@ -270,7 +270,7 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.8011744, y: 0.8678582, z: 1, w: -0.1997729}
+    m_Value: {x: 0.82984823, y: 0.8863335, z: 1, w: -0.049638696}
   midtones:
     m_OverrideState: 1
     m_Value: {x: 1, y: 0.9688562, z: 0.9842966, w: 0.23836517}
