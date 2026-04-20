@@ -78,8 +78,7 @@ void UpdateData()
         data = HelpersRSUV.EncodeData(data, (int)MeshOffsetMagnitude, 15, 5);
         data = HelpersRSUV.EncodeData(data, (int)emission, 20, 1);
         data = HelpersRSUV.EncodeData(data, (int)Smoothness, 21, 3);
-        //data = HelpersRSUV.EncodeData(data, (int)Random, 24, 8);
-        //Random temp removed to help check expected changes in debug log
+        data = HelpersRSUV.EncodeData(data, (int)Random, 24, 8);
         meshwithRSUVset = gameObject.GetComponent<MeshRenderer>();
         meshwithRSUVset.SetShaderUserValue(data);
        

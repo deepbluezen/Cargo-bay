@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Emission variation
-  m_Shader: {fileID: -6465566751694194690, guid: 97dc6bc74d42fdf4cbdc51f7fb0631e4, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: fa0b80a4587f7bc4eb3d20ca579503da, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -48,8 +48,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Highlight_Pallete:
+        m_Texture: {fileID: 2800000, guid: 97ccf4346dffe5a46929cbc56181fe6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Pallete:
+        m_Texture: {fileID: 2800000, guid: 97ccf4346dffe5a46929cbc56181fe6b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -113,11 +121,15 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
+    - _Testfloat1: 0
+    - _Testfloat2: 0
     - _WorkflowMode: 1
     - _World_space_noise_scale: 1
     - _World_space_scale: 0.1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
+    - _vertex_disappear: -50
+    - _vertex_offset: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}

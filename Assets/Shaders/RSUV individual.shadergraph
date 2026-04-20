@@ -175,16 +175,10 @@
             "m_Id": "68000506143149abb1590c026fd4bcf5"
         },
         {
-            "m_Id": "97a70c1f2c604883a6f6c60915638d2a"
-        },
-        {
             "m_Id": "0c54690ce63c4c459f09e27e9e06c457"
         },
         {
             "m_Id": "98370c68a21f4d479daf05b706d0c904"
-        },
-        {
-            "m_Id": "dd2c1751e9194d8dbde25653c3cda923"
         },
         {
             "m_Id": "ffb159f10de94531a39f57403288552d"
@@ -265,9 +259,6 @@
             "m_Id": "a27b52a5c49f4955b66e0ffcad16609f"
         },
         {
-            "m_Id": "53b3b1cfe1d24a5384d46099eb7c6367"
-        },
-        {
             "m_Id": "1cffed9d8e0f4a3f841049f902ab1f87"
         },
         {
@@ -281,6 +272,9 @@
         },
         {
             "m_Id": "3ab909a7b183403fb9e8479482e28a38"
+        },
+        {
+            "m_Id": "a99831061d8f474293ffb09923b23bf0"
         }
     ],
     "m_Edges": [
@@ -2595,15 +2589,15 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "27299403c0c94b2b875ee4a9645c4133",
     "m_Title": "In progress",
-    "m_Content": "Using bounds size helps to some extend but its still not completly scale indepedent Think this is Bounds is vect3 so is actually only taking first value(?) and that happened to work for orientation of that object?\n\nSo if take only x value in object space at least clear what based on - could orientate model so largest is x? Maybe relevant with meshes that are skewed between axes? ",
+    "m_Content": "Using bounds size helps to some extend but its still not completly scale indepedent Think this is Bounds is vect3 so is actually only taking first value(?) and that happened to work for orientation of that object?\n\nSo if take only x value in object space at least clear what based on - could orientate model so largest is x? Maybe relevant with meshes that are skewed between axes? Think its world based on how object responds to rotation\n\n\n\nUse each axes of object size to scale the relevant movement axis?. Is Bound size object or world defined? ",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -1208.4000244140625,
+        "x": -1208.39990234375,
         "y": 267.1999816894531,
-        "width": 199.60003662109376,
-        "height": 215.54510498046876
+        "width": 199.5999755859375,
+        "height": 252.1588134765625
     },
     "m_Group": {
         "m_Id": ""
@@ -2911,22 +2905,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "31f50444327a476393f747af743e483f",
-    "m_Id": 1,
-    "m_DisplayName": "X",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "X",
-    "m_StageCapability": 3,
-    "m_Value": 0.5,
-    "m_DefaultValue": 0.0,
-    "m_Labels": [],
-    "m_LiteralMode": false
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "322f1e9ad20541fc8d0f7542aac07a95",
     "m_Id": 1,
@@ -3174,7 +3152,7 @@
     "m_Title": "Modulate colour",
     "m_Content": "Looking at nodes available and what already set up seems to make sense to have gradient texture that are altering UV postion reading from. Lots of ways could do this, have pallete pairs, use both RSUV values to select pairs of colours for main and highlight. Select tint colours on grey scale background\n ",
     "m_TextSize": 0,
-    "m_Theme": 0,
+    "m_Theme": 1,
     "m_Position": {
         "serializedVersion": "2",
         "x": -965.5999755859375,
@@ -4051,26 +4029,6 @@
 {
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
-    "m_ObjectId": "53b3b1cfe1d24a5384d46099eb7c6367",
-    "m_Title": "Temp change!!",
-    "m_Content": "Need mesh with proper alpha set so can test in correct state",
-    "m_TextSize": 0,
-    "m_Theme": 1,
-    "m_Position": {
-        "serializedVersion": "2",
-        "x": 808.0,
-        "y": -608.0,
-        "width": 200.0,
-        "height": 160.0
-    },
-    "m_Group": {
-        "m_Id": ""
-    }
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "56b4c3f6a38f43ed87bcf13a7dc83dca",
     "m_Title": "Normalise to object size",
     "m_Content": "Currently just adding valure regardless of object size need to update so that shift is normaliased to that\nShader graph object node has bounds size - remap RSUV input range to 0-> bounds size? \n\n\nCan read mesh.bounds in c# script on object and set an RSUV at  start as this approach is for static objects so not being rescaled in game",
@@ -4597,22 +4555,6 @@
         "w": 0.0
     },
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "6f2ff21879ff4d01b641a18543e57642",
-    "m_Id": 0,
-    "m_DisplayName": "Out",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": [],
-    "m_LiteralMode": true
 }
 
 {
@@ -5525,50 +5467,6 @@
         "y": 1.0
     },
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1Node",
-    "m_ObjectId": "97a70c1f2c604883a6f6c60915638d2a",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Float",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 607.2002563476563,
-            "y": -576.7999267578125,
-            "width": 126.39959716796875,
-            "height": 77.99996948242188
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "31f50444327a476393f747af743e483f"
-        },
-        {
-            "m_Id": "6f2ff21879ff4d01b641a18543e57642"
-        }
-    ],
-    "synonyms": [
-        "Vector 1",
-        "1",
-        "v1",
-        "vec1",
-        "scalar"
-    ],
-    "m_Precision": 0,
-    "m_PreviewExpanded": false,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Value": 0.0,
-    "m_ConstIntMode": false
 }
 
 {
@@ -6625,6 +6523,26 @@
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "a99831061d8f474293ffb09923b23bf0",
+    "m_Title": "Jitter UV Y for per object variety?",
+    "m_Content": "Use random bits set for last 8 to make small adjustment",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -788.4000244140625,
+        "y": 829.2000122070313,
+        "width": 216.1085205078125,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 
@@ -8125,42 +8043,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "dd2c1751e9194d8dbde25653c3cda923",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 465.199951171875,
-            "y": -471.99993896484377,
-            "width": 126.800048828125,
-            "height": 35.199981689453128
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "f606c58f884c4d89be910455eb4fb182"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "e5e0dd6003a34bd9b607bc00e9ed6def"
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "ddaf1959960149afb3a326291e7489f8",
     "m_Id": 0,
@@ -8970,22 +8852,6 @@
         "z": 0.0
     },
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "f606c58f884c4d89be910455eb4fb182",
-    "m_Id": 0,
-    "m_DisplayName": "Testfloat1",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": [],
-    "m_LiteralMode": false
 }
 
 {
