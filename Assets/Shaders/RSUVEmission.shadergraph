@@ -67,9 +67,6 @@
             "m_Id": "5d519be3bbaf4246a11902fe1682ce97"
         },
         {
-            "m_Id": "c711e57f726f4743947d32a3f938716e"
-        },
-        {
             "m_Id": "c77d3faaa66f440490402f0dbe5225b3"
         },
         {
@@ -143,6 +140,9 @@
         },
         {
             "m_Id": "79205dfb32134c418cb4ea2b32c7e25c"
+        },
+        {
+            "m_Id": "59342312bab34fdbb867a32876eb369b"
         }
     ],
     "m_GroupDatas": [],
@@ -301,6 +301,34 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "59342312bab34fdbb867a32876eb369b"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "aa3e5b09857c4e94baa6496b0346a8c9"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "59342312bab34fdbb867a32876eb369b"
+                },
+                "m_SlotId": 1
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "ab1dc569ab0d4bf583d9565341fa02c3"
+                },
+                "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "5d519be3bbaf4246a11902fe1682ce97"
                 },
                 "m_SlotId": 0
@@ -413,20 +441,6 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
-                    "m_Id": "87750b3fbb7b423382a322406151a24a"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "aa3e5b09857c4e94baa6496b0346a8c9"
-                },
-                "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
                     "m_Id": "9cbfd5cca1434f48ab6d815df2900fbf"
                 },
                 "m_SlotId": 0
@@ -478,20 +492,6 @@
                     "m_Id": "d286b35c05d343c5b0a2cfadaf7784bd"
                 },
                 "m_SlotId": 1
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "ad64423431fe47b7802ad0b6b00d8db9"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "ab1dc569ab0d4bf583d9565341fa02c3"
-                },
-                "m_SlotId": 0
             }
         },
         {
@@ -1257,22 +1257,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
-    "m_ObjectId": "356ad5ad14974f1bb6e6efde416149b5",
-    "m_Id": 0,
-    "m_DisplayName": "Intensity",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": 0.0,
-    "m_DefaultValue": 0.0,
-    "m_Labels": [],
-    "m_LiteralMode": false
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "37acaacaf79749c3a3c9174aa1dc4376",
     "m_Group": {
@@ -1360,6 +1344,22 @@
         "z": 0.0,
         "w": 0.0
     },
+    "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "3f7a3bc1edac40a6a2a59e2119c7ffc8",
+    "m_Id": 1,
+    "m_DisplayName": "IntensityOffset",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "IntensityOffset",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": [],
     "m_LiteralMode": false
 }
 
@@ -1674,6 +1674,50 @@
         "w": 0.0
     },
     "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
+    "m_ObjectId": "59342312bab34fdbb867a32876eb369b",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "GetIntensityTime (Custom Function)",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -1143.199951171875,
+            "y": -152.8000030517578,
+            "width": 262.0,
+            "height": 102.00001525878906
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "de5e16f480594d129f73e148253c6c7c"
+        },
+        {
+            "m_Id": "3f7a3bc1edac40a6a2a59e2119c7ffc8"
+        }
+    ],
+    "synonyms": [
+        "code",
+        "HLSL"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SourceType": 0,
+    "m_FunctionName": "GetIntensityTime",
+    "m_FunctionSource": "ad80050cd9fc1f143a43c781c8864082",
+    "m_FunctionSourceUsePragmas": true,
+    "m_FunctionBody": "Enter function body here..."
 }
 
 {
@@ -2195,10 +2239,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -496.39996337890627,
-            "y": 58.40000534057617,
-            "width": 253.9999237060547,
-            "height": 77.99998474121094
+            "x": -293.2000732421875,
+            "y": 80.40001678466797,
+            "width": 224.00003051757813,
+            "height": 77.9999771118164
         }
     },
     "m_Slots": [
@@ -2463,10 +2507,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -962.3999633789063,
-            "y": -70.8000259399414,
+            "x": -962.4000244140625,
+            "y": -35.59999465942383,
             "width": 131.99993896484376,
-            "height": 35.20001220703125
+            "height": 35.19997787475586
         }
     },
     "m_Slots": [
@@ -3456,42 +3500,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "c711e57f726f4743947d32a3f938716e",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -182.80001831054688,
-            "y": 191.60000610351563,
-            "width": 120.7999267578125,
-            "height": 35.199981689453128
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "356ad5ad14974f1bb6e6efde416149b5"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "13afec09f8bf475bad2c08647ac63101"
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "c77d3faaa66f440490402f0dbe5225b3",
     "m_Group": {
@@ -3927,6 +3935,22 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "de5e16f480594d129f73e148253c6c7c",
+    "m_Id": 0,
+    "m_DisplayName": "IntensityTimeScale",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "IntensityTimeScale",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": [],
+    "m_LiteralMode": false
 }
 
 {

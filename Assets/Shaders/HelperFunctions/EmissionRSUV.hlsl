@@ -33,7 +33,7 @@ void GetUVSelect_float(out float UVselect)
 void GetIntensityTime_float(out float IntensityTimeScale, out float IntensityOffset)
 {
     uint data = GetData();
-    IntensityTimeScale = DecodeBitsToInt(data,10,4)/15;
+    IntensityTimeScale = DecodeBitsToInt(data,10,4)/7;
     IntensityOffset = DecodeBitsToInt(data,14,4)/15;
 }
 
