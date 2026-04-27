@@ -18584,15 +18584,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: f5d6cd474d70dae4486de818020f09b2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 17.425
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f5d6cd474d70dae4486de818020f09b2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 17.425
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f5d6cd474d70dae4486de818020f09b2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 17.425001
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f5d6cd474d70dae4486de818020f09b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18634,6 +18634,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 270.238
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f5d6cd474d70dae4486de818020f09b2, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: f5d6cd474d70dae4486de818020f09b2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -18674,7 +18678,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SetEmissionRSUV
   varyIntensity: 0
   varyColour: 0
-  Intensity: 0
+  Intensity: 15
   colourPallette: 1
   UVselect: 0
   IntensityTimeScale: 0

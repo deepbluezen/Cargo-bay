@@ -105,7 +105,7 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Intensity: 6.46
+    - _Intensity: 7.09
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -121,7 +121,7 @@ Material:
     - _Time_offset: 0
     - _Time_scale: 1
     - _Vary_colour_over_time: 1
-    - _Vary_intensity_over_time: 1
+    - _Vary_intensity_over_time: 0
     - _Vary_over_time: 0
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1

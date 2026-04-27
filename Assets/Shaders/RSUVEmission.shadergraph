@@ -140,6 +140,9 @@
         },
         {
             "m_Id": "d286b35c05d343c5b0a2cfadaf7784bd"
+        },
+        {
+            "m_Id": "79205dfb32134c418cb4ea2b32c7e25c"
         }
     ],
     "m_GroupDatas": [],
@@ -368,6 +371,20 @@
         {
             "m_OutputSlot": {
                 "m_Node": {
+                    "m_Id": "79205dfb32134c418cb4ea2b32c7e25c"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "e92e141324e44d48ad5c53034d57dc28"
+                },
+                "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
                     "m_Id": "865493d59d464487b2ff63b58ee56730"
                 },
                 "m_SlotId": 0
@@ -475,20 +492,6 @@
                     "m_Id": "ab1dc569ab0d4bf583d9565341fa02c3"
                 },
                 "m_SlotId": 0
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "c711e57f726f4743947d32a3f938716e"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "e92e141324e44d48ad5c53034d57dc28"
-                },
-                "m_SlotId": 1
             }
         },
         {
@@ -2181,6 +2184,47 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
+    "m_ObjectId": "79205dfb32134c418cb4ea2b32c7e25c",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "GetIntensity (Custom Function)",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -496.39996337890627,
+            "y": 58.40000534057617,
+            "width": 253.9999237060547,
+            "height": 77.99998474121094
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "87f4a0f1cfaf433999d48755aa7eaf30"
+        }
+    ],
+    "synonyms": [
+        "code",
+        "HLSL"
+    ],
+    "m_Precision": 0,
+    "m_PreviewExpanded": false,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SourceType": 0,
+    "m_FunctionName": "GetIntensity",
+    "m_FunctionSource": "ad80050cd9fc1f143a43c781c8864082",
+    "m_FunctionSourceUsePragmas": true,
+    "m_FunctionBody": "Enter function body here..."
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "7c469cb3b6e441a39da768267997507a",
@@ -2452,6 +2496,22 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Sine Time",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": [],
+    "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "87f4a0f1cfaf433999d48755aa7eaf30",
+    "m_Id": 0,
+    "m_DisplayName": "Intensity",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Intensity",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -3406,10 +3466,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -149.19998168945313,
-            "y": 62.799983978271487,
+            "x": -182.80001831054688,
+            "y": 191.60000610351563,
             "width": 120.7999267578125,
-            "height": 35.19997787475586
+            "height": 35.199981689453128
         }
     },
     "m_Slots": [
