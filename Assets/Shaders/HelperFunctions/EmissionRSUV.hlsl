@@ -18,10 +18,10 @@ void GetIntensity_float(out float Intensity)
     Intensity = DecodeBitsToInt(data,2,4)*2;
 }
 
-void GetColourPalette_float(out float ColourPallette)
+void GetColourPalette_float(out float ColourPalette)
 {
     uint data = GetData();
-    ColourPallette = GetBit(data,6);
+    ColourPalette = GetBit(data,6);
 }
 
 void GetUVSelect_float(out float UVselect)
