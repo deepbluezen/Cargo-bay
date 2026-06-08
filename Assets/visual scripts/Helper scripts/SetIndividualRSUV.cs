@@ -83,7 +83,7 @@ void UpdateData()
         meshwithRSUVset.SetShaderUserValue(data);
        
         uint setRSUV =  meshwithRSUVset.GetShaderUserValue();
-        Debug.Log(setRSUV);
+       // Debug.Log(setRSUV);
 
         
     }
