@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5831978798522581727}
   m_Layer: 0
   m_Name: FillZone
-  m_TagString: Untagged
+  m_TagString: LoadingZone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
